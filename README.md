@@ -1,1 +1,1 @@
-Rocket Calculations uses an ML-trained model ( libraries include TensorFlow, Numpy, etc.) to generate vectors, Flight Paths, and data points (max alt., etc.) to create a more developed and accurate Calculator.
+Rocket Calculations uses an ML-trained model ( libraries include TensorFlow, Numpy, etc.) to generate vectors, Flight Paths, and data points (max alt., etc.) to create a more developed and accurate Calculator, from the first iteration.
