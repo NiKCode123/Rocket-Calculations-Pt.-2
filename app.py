@@ -319,4 +319,6 @@ with st.expander("About"):
     It's intended for educational purposes and rocket enthusiasts.
     
     The simulator uses basic Newtonian physics and a simplified atmospheric model.
+                
+    Developed by Nikash Nadgir, January to May 2025
     """)
