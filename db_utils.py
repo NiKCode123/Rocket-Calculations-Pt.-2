@@ -5,8 +5,11 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 
-# Get database URL from environment variable
-DATABASE_URL = os.environ['DATABASE_URL']
+try:
+    DATABASE_URL = os.environ['DATABASE_URL']
+except KeyError:
+    print("DATABASE_URL not set. Using SQLite in-memory database for testing.")
+    DATABASE_URL = "sqlite:///rocket_simulation.db"
 
 # Create database engine
 engine = create_engine(DATABASE_URL)
