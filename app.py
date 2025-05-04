@@ -316,9 +316,9 @@ with st.expander("About"):
     # Rocket Trajectory Simulator
     
     This application was created to help visualize and understand rocket flight dynamics.
-    It's intended for educational purposes and rocket enthusiasts.
+    It's intended for educational purposes, rocket enthusiasts, and the general public alike.
     
     The simulator uses basic Newtonian physics and a simplified atmospheric model.
                 
-    Developed by Nikash Nadgir, January to May 2025
+    Developed by Nikash Nadgir, A project spanning from January to May 2025
     """)
